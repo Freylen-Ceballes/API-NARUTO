@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .App{
+    height: auto;
+    background-color: cadetblue;
+  }
+  
+  #div-app{
+    background-color: cadetblue;
+    height: 100vh;
+  }

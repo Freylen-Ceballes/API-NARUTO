@@ -1,0 +1,26 @@
+#div-card {
+    margin: 6.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: solid; */
+}
+
+#div-card:hover {
+    display: flex;
+    flex-direction: row;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+@media (max-width: 600px) {
+    #div-card {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-left: -4px;
+    }
+}

@@ -1,0 +1,23 @@
+#about{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /* border: solid; */
+    padding: 20px;
+    align-items: center;
+    margin: 20px;
+}
+
+#tittle-about{
+    font-size: 3rem;
+}
+
+#text-about{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+#gif{
+    border-radius: 20px;
+    margin-bottom: 60px;
+}

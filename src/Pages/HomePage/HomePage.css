@@ -1,0 +1,6 @@
+#div-home{
+    display: flex;
+    /* border: solid; */
+    justify-content: center;
+    height: 100%;
+}
